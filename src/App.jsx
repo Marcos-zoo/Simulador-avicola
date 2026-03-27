@@ -211,9 +211,10 @@ const App = () => {
   );
 
   return (
-    <div className="min-h-screen bg-slate-50 p-4 md:p-8 font-sans text-slate-800">
+    
+    <div className="min-h-screen w-full bg-slate-50 p-4 md:p-8 font-sans text-slate-800">
 
-      <header className="max-w-7xl mx-auto mb-6">
+      <header className="max-w-screen-2xl mx-auto mb-6">
         <h1 className="text-3xl font-bold text-slate-900 flex items-center gap-3">
           <Activity className="text-orange-500" />
           Simulador de Produção Avícola
@@ -239,7 +240,7 @@ const App = () => {
         </div>
       </header>
 
-      <main className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8">
+      <main className="max-w-screen-2xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8">
 
         {/* ── Painel de Controles ── */}
         <div className="lg:col-span-1 space-y-6">
@@ -738,7 +739,7 @@ const App = () => {
         </div>
       </main>
 
-      <footer className="max-w-7xl mx-auto mt-12 pt-6 border-t border-slate-200 text-center text-slate-400 text-xs">
+      <footer className="max-w-screen-2xl mx-auto mt-12 pt-6 border-t border-slate-200 text-center text-slate-400 text-xs">
         <p>
           Preço de referência: CEASA Recife — Cx. 30 Dz (360 ovos) = R$ 180,00 → R$ 4,50/bandeja de 30 ovos.
           Valores reais podem variar conforme sazonalidade e canal de venda.
